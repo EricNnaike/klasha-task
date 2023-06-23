@@ -22,7 +22,7 @@ import org.springframework.context.annotation.Configuration;
         private String contactName;
         @Value("${api.info.contact.email: nnaikeuchennaeric@gmail.com}")
         private String contactEmail;
-        @Value("${api.info.contact.url: https://github.com/Uchenna/Klasha-task}")
+        @Value("${api.info.contact.url: https://github.com/EricNnaike/klasha-task}")
         private String contactUrl;
         @Value("${api.info.licence.name: api.info.licence.name}")
         private String licenceName;
